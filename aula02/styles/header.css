@@ -10,6 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .conteiner {
@@ -17,4 +18,14 @@
     align-items: center;
     gap: 1rem;
     padding: 0.5rem 1rem;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.conteiner-botao:checked ~ .lista-menu {
+    display: block;
 }
