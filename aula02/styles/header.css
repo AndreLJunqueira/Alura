@@ -24,8 +24,23 @@
     display: none;
     position: absolute;
     top: 100%;
+    width: 60vw;
 }
 
 .conteiner-botao:checked ~ .lista-menu {
     display: block;
+}
+
+.lista-menu-titulo, .lista-menu-item {
+    padding: 1rem;
+    background-color: var(--branco);
+}
+
+.lista-menu-titulo {
+    color: var(--laranja);
+}
+
+.lista-menu-link {
+    color: var(--azul-degrade);
+    text-transform: uppercase;
 }
