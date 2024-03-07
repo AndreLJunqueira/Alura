@@ -38,9 +38,15 @@
 
 .lista-menu-titulo {
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu-link {
     color: var(--azul-degrade);
     text-transform: uppercase;
+    text-decoration: none;
+}
+
+.conteiner-botao {
+    display: none;
 }
